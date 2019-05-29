@@ -18,4 +18,3 @@
 //= require turbolinks
 //= require_tree .
 
-import 'jquery_ujs';
