@@ -22,3 +22,7 @@
 .no-padding {
     padding: 0 !important;
 }
+
+.search-btn {
+    margin-top: 10px;
+}
