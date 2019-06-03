@@ -14,12 +14,12 @@
           <li><%= link_to "Link3", "/path3"  %></li>
         </ul>
         <ul class="nav nabar-right col-md-4">
-          <li class="col-md-8">
+          <li class="col-md-8 name-nav">
             <i class="fa fa-user"></i>
             <%= current_user.full_name.present? ? current_user.full_name : current_user.email%>
           </li>
           <li class="col-md-4 logout">
-            <%= link_to("logout", destroy_user_session_path, class: "btn btn-xs btn-danger", method: :get) %>
+            <%= link_to("LOGOUT", destroy_user_session_path, class: "btn btn-xs btn-danger", method: :get) %>
           </li>
         </ul>
       </div>
